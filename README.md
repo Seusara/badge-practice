@@ -11,8 +11,9 @@ Practice repo for learning Git/GitHub PR workflows.
 ## Usage
 
 ```bash
-npm start   # runs index.js
-npm test    # runs test.js
+npm start          # runs index.js, greets "World"
+node index.js Ana  # greets a custom name instead
+npm test           # runs test.js
 ```
 
 ## Example
