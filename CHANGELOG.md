@@ -4,6 +4,11 @@ All notable changes to this project are documented in this file.
 
 ## Unreleased
 
+- Validated that all `math.js` functions receive numeric input, throwing a clear `TypeError` otherwise
+
+## v1.2.0
+
+- Added `CHANGELOG.md`
 - Added negative number, decimal, and power/sqrt test coverage
 - Added `power()` and `sqrt()` to `math.js`
 - Wrapped the `divide()` call in `index.js` with try/catch for graceful error handling
