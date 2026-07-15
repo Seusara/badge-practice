@@ -17,4 +17,15 @@ function divide(a, b) {
   return a / b;
 }
 
-module.exports = { add, subtract, multiply, divide };
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
+
+function sqrt(value) {
+  if (value < 0) {
+    throw new Error('Cannot take the square root of a negative number');
+  }
+  return Math.sqrt(value);
+}
+
+module.exports = { add, subtract, multiply, divide, power, sqrt };
