@@ -26,4 +26,10 @@ assert.strictEqual(power(5, 0), 1);
 assert.strictEqual(sqrt(81), 9);
 assert.throws(() => sqrt(-1), /Cannot take the square root of a negative number/);
 
+// Input type validation
+assert.throws(() => add('2', 3), TypeError);
+assert.throws(() => multiply(2, null), TypeError);
+assert.throws(() => sqrt('81'), TypeError);
+assert.throws(() => add(NaN, 1), TypeError);
+
 console.log('All tests passed.');

@@ -5,7 +5,7 @@ Practice repo for learning Git/GitHub PR workflows.
 ## Project structure
 
 - `index.js` - entry point, prints a greeting and a couple of math examples
-- `math.js` - small math utilities (`add`, `subtract`, `multiply`, `divide`, `power`, `sqrt`)
+- `math.js` - small math utilities (`add`, `subtract`, `multiply`, `divide`, `power`, `sqrt`), all of which validate that their inputs are numbers and throw a `TypeError` otherwise
 - `test.js` - basic assertion tests for the functions above
 
 ## Usage
